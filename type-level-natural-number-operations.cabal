@@ -1,5 +1,5 @@
 Name:                type-level-natural-number-operations
-Version:             1.0
+Version:             1.0.0.1
 License:             BSD3
 License-file:        LICENSE
 Author:              Gregory Crosswhite
@@ -16,6 +16,6 @@ Category:	     Type System,Data
 
 Library
     Build-depends:   base >= 3 && < 5,
-                     type-level-natural-number >= 1.0 && < 1.2
+                     type-level-natural-number >= 1.0 && < 2.1
     Exposed-modules: TypeLevel.NaturalNumber.Operations
     Extensions:	     TypeFamilies
